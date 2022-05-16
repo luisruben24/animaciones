@@ -138,3 +138,7 @@ grid-template-columns: 40% 60%;
     }
 }
 
+.mermeladaMerey {
+    transform: rotate(30deg);
+    background-color: #9C6459;
+}
