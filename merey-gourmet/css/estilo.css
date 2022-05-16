@@ -139,6 +139,55 @@ grid-template-columns: 40% 60%;
 }
 
 .mermeladaMerey {
-    transform: rotate(30deg);
-    background-color: #9C6459;
+    width: 300px;
+    transform: skew(10deg,10deg)
 }
+
+.mereySemilla {
+    width: 300px;
+}
+
+@keyframes animacion {
+    0% {
+        width: 220px;
+    }
+    25% {
+        width: 240px;
+        }
+    50% {
+       width: 280px;
+    }
+
+    75% {
+        width: 280px;
+    }
+
+    100% {
+        width: 300px;
+    }
+
+}
+
+.mereySemilla {
+    animation-name: animacion;
+    animation-iteration-count:initial ;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+.animacion {
+    animation-name: texto;
+    animation-duration: 2s;
+    animation-iteration-count:inherit;
+    }
